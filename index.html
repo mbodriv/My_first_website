@@ -1,1 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Maria Personal Portfolio</title>
+</head>
 
+<body>
+<!--Nav Bar-->
+    <nav>
+        <div class="left">
+            <div class="logo"><span>M</span>aria.</div>
+        </div>
+
+        <div class="middle">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/mbodriv" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>  
+            </a>
+
+            <a href="https://www.linkedin.com/in/mariabodero/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:mariabodero94@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a> 
+        </div>
+    </nav>
+             
+    <main>
+<!--SECTION 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Maria Bodero</h2>
+                <h4>Finance Analyst</h4>
+                <p> One of the things I enjoy the most about my work is solving problems and finding creative solutions. 
+            My drive to work more efficiently has inspired me to leverage technology to unlock new possibilities. 
+            This page will serve as a space to showcase the projects I create throughout my journey of learning coding and exploring various tech tools. </p>
+                <div class="links">
+                    <a href="#About">
+                        <i class="fa-solid fa-address-card"></i>
+                        <span>About me</span>
+                    </a>
+                
+                     <a href="#Projects">
+                        <i class="fa-solid fa-code"></i>    
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>    
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>     
+
+            <div class="headshot">
+                <img src="img/Maria.jpeg" alt="Photo of Maria">
+            </div>
+
+        </section>
+
+<!--SECTION 2: About me-->
+        <section id="About" class="about-me">
+             <h2>A bit more about me</h2>
+             <p>I'm originally from Spain, and what started as an adventure in Australia has now become home.
+            My journey into technology began with a curiosity for automating tasks. I started teaching myself tools like 
+            SQL, Power BI, and VBA macros, and quickly realised how much I enjoyed combining creativity with problem solving.
+            This passion led me to explore coding further and pursue new opportunities in tech.</p><br>
+
+             <p>
+            I love setting challenges for myself and constantly finding ways to grow and improve, both professionally and personally.
+            Outside of work, I'm passionate about sports and always strive to push my own limits, whether that's through training, learning or trying something new.
+            </p><br>
+        </section>
+
+<!--SECTION 3: Learning-->
+        <section id="Projects" class="projects">
+            <p class="title">What I'm working on</p>
+            <h2>Projects</h2>
+             <div class="text">
+                <p>These are the projects I'm currently working on within the program.
+            Some are already live, while others are still in progress as I continue building my skills.
+                </p>
+             </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <a href="https://github.com/mbodriv/My_first_website" target="_blank">
+                    <img src="img/html-css.png" alt="html and css logo">
+                    <span>HTML/CSS</span>
+                    </a>
+                </div>
+
+                <div class="cell">
+                    <a href="https://github.com/mbodriv/weather_project.git" target="_blank">    
+                    <img src="img/python-logo.png" alt="python logo">
+                    <span>Python</span>
+                    </a>
+                </div>
+
+                 <div class="cell">
+                    <img src="img/django.png" alt="django logo">
+                    <span>Django</span>
+                </div>
+
+                <div class="cell">
+                    <img src="img/javascript.webp" alt="javascript logo">
+                    <span>Javascript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="img/React.svg.png" alt="React logo">
+                    <span>React</span>
+                </div>
+
+            </div>
+        </section>
+
+
+<!--SECTION 4: Contact-->
+        <section id="Contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                 <div class="text">
+                   I'd love to hear from you! 
+                 Whether you have a question, a collaboration idea or just want to say hi, 
+                  feel free to drop me a message below.
+                </div>
+
+             <form>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+
+                <button type="submit">Send Message</button>
+             </form>
+             </div>
+        </section>
+    /main>
+</body>
+</html>
